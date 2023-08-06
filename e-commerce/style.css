@@ -1,0 +1,212 @@
+body{
+    height: 3000px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    
+   }
+
+ /*header-section*/  
+#header-section{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background-color:cadetblue;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.left-section{
+    margin-right: 30px;
+    height: 80px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 220px;
+    height: 70px;
+    margin: 10px;
+   
+}
+
+.middle-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    width: 500px;
+}
+
+.menus{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menus:hover{
+    color: blue;
+}
+
+.right-section{
+    height: 80px;
+    width: 350px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-icon{
+    position: relative;
+}
+
+.cart-image{
+    width: 50px;
+}
+
+
+.cart-no{
+    position:absolute;
+    top: -15px;
+    left: 24px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login{
+    font-size: 20px;
+    padding-right: 10px;
+    color: white;
+}
+
+.login-logo{
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+/*home section*/
+.home-section{
+    background-image:url(images/bg.jpg);
+    background-size:1520px 720px;
+    background-repeat: no-repeat;
+    height: 720px;
+}
+
+.title{
+    height: 40px;
+    width:300px;
+    background-color: black;
+    color: white;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.header1{
+    color:black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.header2{
+    color: black;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.about-us{
+    font-size: 35px;
+    margin-left: -400px;
+    font-weight: bold;
+    color:black;
+    text-decoration: underline;
+}
+
+.about{
+    font-size: 25px;
+    margin-top:0px;
+    margin-left: 100px;
+}
+
+.contact{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.catagory-page{
+    background-color: lightblue;
+    padding-bottom: 30px;
+}
+
+
+#Catagory{
+    padding-top: 70px;
+    height: 50px;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+    margin-bottom: 0px;
+}
+
+.center-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid{
+    width: 600px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-self: center;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.Catagory-section{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+}
+
+.Catagory-images{
+    width:80px;
+    height: 80px;
+}
+
+.Catagory-name{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+

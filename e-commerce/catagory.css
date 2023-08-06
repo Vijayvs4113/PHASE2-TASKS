@@ -1,0 +1,157 @@
+.fashion-section
+{
+    margin-top: 0px;
+    height: 650px;
+    background:url(images/fashion-background.jpg);
+    background-repeat: no-repeat ;
+    background-size: 1520px 800px;
+}
+
+.electronics-section{
+    margin-top: 0px;
+    height: 650px;
+    background:url(images/electronics-section-bg.jpg);
+    background-repeat: no-repeat ;
+    background-size: 1520px 800px;
+}
+
+
+.jewellery-section{
+    margin-top: 0px;
+    height: 650px;
+    background:url(images/jewellery-section-bg.jpg);
+    background-repeat: no-repeat ;
+    background-size: 1520px 800px;
+}
+
+.mobiles-section{
+    margin-top: 0px;
+    height: 650px;
+    background:url(images/mobile-section-bg.jpg);
+    background-repeat: no-repeat ;
+    background-size: 1520px 800px;
+}
+
+hr{
+    margin-top: 30px;
+    line-height: 5px;
+}
+/*general section start*/
+
+#fashion,
+#electronics,
+#jewellery,
+#mobile
+{
+    font-size: 40px;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    padding-top: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.products{
+    display: grid;
+    width: 1100px;
+    grid-template-columns: 271px 271px 271px 271px;
+    column-gap: 5px;
+    margin-left: 58px;
+   }
+
+
+.products-3{
+    display: grid;
+    width:825px;
+    grid-template-columns: 271px 271px 271px;
+     column-gap: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-left: 0px;
+    border: 1px solid black;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+
+.images{
+    width: 250px;
+    height: 300px;  
+}
+
+.product-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.price{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+
+.quantity-selector{
+    background-color:lightgray;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.ratings{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    height: 40px;
+}
+
+.rating-image{
+    width: 100px;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-left: 10px;   
+}
+
+.ratings-no{
+    font-size: 20px;
+    color: darkseagreen;
+    font-weight: bold;
+}
+
+.added{
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    height: 30px;
+}
+
+.add-to-cart-button{
+    width: 120px;
+    height: 30px;
+    padding:5px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:yellow;
+    color: black;
+}
+
+h1{
+    margin-top: 100px;
+    text-align: center;
+    color: blue;
+}
+

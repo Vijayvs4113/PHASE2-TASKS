@@ -1,0 +1,153 @@
+.review-section{
+    height: 500px;
+    background-color: lightblue;
+}
+
+#review{
+    margin-top: 0px;
+    padding-top: 80px;
+}
+
+.review-grid{
+    display: grid;
+    height: 300px;
+    width: 1070px;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 10px;
+    margin-left: 72px;
+}
+
+.review-container{
+    border: 1px solid red;
+    display: flex;
+    background-color: white;
+}
+
+.login-logo1{
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-name{
+    margin-left: 0px;
+    margin-top: 5px;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.review-nos{
+    color: gray;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.rating-time{
+    display: flex;
+    color: gray;
+    font-size: 20px
+}
+
+.review-ratings{
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.comment{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    height: 50px;
+}
+
+.comment-button{
+    background-color: white;
+    border: none;
+}
+
+.review-image{
+    width: 30px;
+    height: 30px;
+}
+
+#contact-section{
+    height: 450px;
+    column-gap: 10px;
+    background-color: rgb(19,25,33);
+    color: white;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 200px;
+   
+}
+
+.contact-info-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.contact-info{
+    color: white;
+    font-family:Arial;
+    font-size: 20px;
+}
+
+.working-hours{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.working-days{
+    margin-top: 5px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.shop{
+    display: flex;
+    flex-direction:column;
+}
+
+.delivery-image{
+    height: 40px;
+    width: 100px;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.social-media-icon{
+    width: 30px;
+    height: 30px;  
+}
+
+a:hover{
+    color: orangered;
+}
