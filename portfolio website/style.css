@@ -1,0 +1,503 @@
+body{
+    background-color: #111111b6;
+    margin: 0;
+}
+
+header{
+    width: 18%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-picture{
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    border: 5px solid gold;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.position{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 0px;
+    color: white;
+}
+
+.center-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+}
+
+header .navbar{
+    width: 100%;
+    text-align: center;
+}
+
+
+header .navbar ul{
+    list-style: none;    
+    padding: 10px 0;
+}
+
+header .navbar li{
+    height: 20%; 
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: grey;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.links{
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;    
+    color: white;
+    font-weight: bold;
+}
+
+.links1{
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.links:hover,
+.links1:hover{
+    color: black;
+    background-color: yellow;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+
+#home-section{
+    height: 100%;
+    background-color: black;
+    color: gold;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 18%;
+    bottom:0;
+    right: 0;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    align-items: start;
+}
+    
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 500px;
+}
+
+#home{
+    color: gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 20px;
+  }
+
+
+.header2{
+    margin-bottom: 10px;
+}
+
+.myself{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+span{
+    color: white;
+    font-weight: bold;
+}
+
+.about-button{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 0.5px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.profile-picture-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-picture-home{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left: 50px;
+    border: 5px solid gold;
+}
+
+
+#about{
+    height: 100%;
+    background-color: black;
+    color: gold;
+    font-weight: bold;
+    position: absolute;
+    top: 100%;
+    bottom:0;
+    right: 0;
+    left: 18%;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    align-items: start;
+}
+
+hr{
+    width: 900px;
+    margin-left: 50px;
+}
+
+.header1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+p{
+    margin-left: 50px;
+    color: gold;
+    font-size: 20px;
+}
+
+.skill-text{
+    margin-bottom: 0px;
+    color: white;
+}
+
+.skills{
+    margin-top: 0px;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+
+#education{
+    height: 100%;
+    background-color: black;
+    color: gold;
+    font-weight: bold;
+    position: absolute;
+    top: 200%;
+    bottom:0;
+    right: 0;
+    left: 18%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    align-items: start;
+}
+
+.education-grid{
+    height: 500px;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.education-container{
+    width: 500px;
+    display: flex;
+    align-items: start;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+
+#skills{
+    height: 100%;
+    background-color: black;
+    color: gold;
+    font-weight: bold;
+    position: absolute;
+    top: 300%;
+    bottom:0;
+    right: 0;
+    left: 18%;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    align-items: start;
+}
+
+.skill-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.skill{
+    margin-bottom: 10px;
+}
+
+.progress-bar{
+    height: 20px;
+    width: 500px;
+    border-radius: 10px;
+    border:1px solid white;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.percentage,
+.percentage1,
+.percentage2,
+.percentage3,
+.percentage4,
+.percentage5{
+    height: 20px; 
+    width: 85%; 
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.percentage1{
+    width: 75%;
+}
+
+.percentage2{
+    width: 94%;
+}
+
+.percentage3{
+    width: 90%;
+}
+
+.percentage4{
+    width: 78%;
+}
+
+.percentage5{
+    width: 92%;
+}
+
+.percen-1{
+    position: relative;
+    left: 410px;
+    top: -10px;
+    border: 1px solid red;
+    padding:8px 1.5px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+
+
+.percen-2{
+    position: relative;
+    left: 360px;
+    top: -10px;
+    border: 1px solid red;
+    padding:8px 1.5px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+
+}
+
+
+.percen-3{
+    position: relative;
+    left: 450px;
+    top: -10px;
+    border: 1px solid red;
+    padding:8px 1.5px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+
+
+.percen-4{
+    position: relative;
+    left: 435px;
+    top: -10px;
+    border: 1px solid red;
+    padding:8px 1.5px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+
+
+.percen-5{
+    position: relative;
+    left: 380px;
+    top: -10px;
+    border: 1px solid red;
+    padding:8px 1.5px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+
+
+.percen-6{
+    position: relative;
+    left: 440px;
+    top: -10px;
+    border: 1px solid red;
+    padding:8px 1.5px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+}
+
+
+#contact{
+    height: 80%;
+    background-color: black;
+    color: gold;
+    font-weight: bold;
+    position: absolute;
+    top: 400%;
+    bottom:0;
+    right: 0;
+    left: 18%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    align-items: start;
+}
+
+.contact-grid{
+    height:350px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.contact-info1{
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: 70px;
+}
+
+.contact-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.information{
+    margin: 0;
+    margin-left: 10px;
+}
+
+.contact-images{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.media-images{
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info,
+.info1,
+textarea{
+    width: 450px;
+    height: 20px;
+    background-color: gray;
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.info::placeholder,
+.info1::placeholder,
+textarea::placeholder{
+    color: white;
+}
+
+textarea{
+    height: 100px;
+}
+
+.submit-button{
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.i1:hover{
+    background-color: yellow;
+}
